@@ -26,14 +26,11 @@ function MainComponent({ setShowSuccessPage, setEmail }) {
     <div className="component">
       <picture className="img">
         <source
-          srcSet="../public/images/illustration-sign-up-desktop.svg"
+          srcSet="./images/illustration-sign-up-desktop.svg"
           media="(min-width: 90rem)"
         />
-        <source srcSet="../public/images/illustration-sign-up-mobile.svg" />
-        <img
-          src="../public/images/illustration-sign-up-mobile.svg"
-          alt="background"
-        />
+        <source srcSet="./images/illustration-sign-up-mobile.svg" />
+        <img src="./images/illustration-sign-up-mobile.svg" alt="background" />
       </picture>
 
       <main className="main__box">
@@ -43,15 +40,15 @@ function MainComponent({ setShowSuccessPage, setEmail }) {
         </p>
         <ul className="list">
           <li className="list__item">
-            <img src="../public/images/icon-list.svg" alt="icon" />
+            <img src="./images/icon-list.svg" alt="icon" />
             Product discovery and building what matters
           </li>
           <li className="list__item">
-            <img src="../public/images/icon-list.svg" alt="icon" />
+            <img src="./images/icon-list.svg" alt="icon" />
             Measuring to ensure updates are a success
           </li>
           <li className="list__item">
-            <img src="../public/images/icon-list.svg" alt="icon" />
+            <img src="./images/icon-list.svg" alt="icon" />
             And much more!
           </li>
         </ul>
@@ -105,7 +102,7 @@ function SuccessPage({ setShowSuccessPage, email }) {
       <div className="success__text-box">
         <img
           className="success__img"
-          src="../public/images/icon-success.svg"
+          src="./images/icon-success.svg"
           alt="icon"
           width="64px"
         />
